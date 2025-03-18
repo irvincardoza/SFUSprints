@@ -1,0 +1,61 @@
+@options
+@packages
+@argfile
+-encoding
+'UTF-8'
+-protected
+-source
+'23'
+-sourcepath
+'C:/Users/Viktor/.ssh/CMPT276S25_group15/sfusprint/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Viktor/.ssh/CMPT276S25_group15/sfusprint/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'sfusprint 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'sfusprint 1.0-SNAPSHOT API'
+com.sfusprint
+com.sfusprint.entity
+com.sfusprint.gameobject
+'C:/Users/Viktor/.ssh/CMPT276S25_group15/sfusprint/src/main/java/com/sfusprint/Directions.java'
+'C:/Users/Viktor/.ssh/CMPT276S25_group15/sfusprint/src/main/java/com/sfusprint/entity/Character.java'
+'C:/Users/Viktor/.ssh/CMPT276S25_group15/sfusprint/src/main/java/com/sfusprint/entity/Enemy.java'
+'C:/Users/Viktor/.ssh/CMPT276S25_group15/sfusprint/src/main/java/com/sfusprint/entity/Player.java'
+'C:/Users/Viktor/.ssh/CMPT276S25_group15/sfusprint/src/main/java/com/sfusprint/entity/Professor.java'
+'C:/Users/Viktor/.ssh/CMPT276S25_group15/sfusprint/src/main/java/com/sfusprint/GameLogic.java'
+'C:/Users/Viktor/.ssh/CMPT276S25_group15/sfusprint/src/main/java/com/sfusprint/GameMap.java'
+'C:/Users/Viktor/.ssh/CMPT276S25_group15/sfusprint/src/main/java/com/sfusprint/gameobject/Item.java'
+'C:/Users/Viktor/.ssh/CMPT276S25_group15/sfusprint/src/main/java/com/sfusprint/gameobject/Obstacle.java'
+'C:/Users/Viktor/.ssh/CMPT276S25_group15/sfusprint/src/main/java/com/sfusprint/gameobject/Puddle.java'
+'C:/Users/Viktor/.ssh/CMPT276S25_group15/sfusprint/src/main/java/com/sfusprint/gameobject/Wall.java'
+'C:/Users/Viktor/.ssh/CMPT276S25_group15/sfusprint/src/main/java/com/sfusprint/GameObject.java'
+'C:/Users/Viktor/.ssh/CMPT276S25_group15/sfusprint/src/main/java/com/sfusprint/GamePanel.java'
+'C:/Users/Viktor/.ssh/CMPT276S25_group15/sfusprint/src/main/java/com/sfusprint/KeyboardHandler.java'
+'C:/Users/Viktor/.ssh/CMPT276S25_group15/sfusprint/src/main/java/com/sfusprint/Main.java'
+'C:/Users/Viktor/.ssh/CMPT276S25_group15/sfusprint/src/main/java/com/sfusprint/MouseInput.java'
+'C:/Users/Viktor/.ssh/CMPT276S25_group15/sfusprint/src/main/java/com/sfusprint/Renderer.java'
+C:\Users\Viktor\.ssh\CMPT276S25_group15\sfusprint\src\main\java = 1739746536008
+C:\Users\Viktor\.ssh\CMPT276S25_group15\sfusprint\target\site\apidocs\allclasses-index.html = 1739957169245
+C:\Users\Viktor\.ssh\CMPT276S25_group15\sfusprint\target\site\apidocs\allpackages-index.html = 1739957169247
+C:\Users\Viktor\.ssh\CMPT276S25_group15\sfusprint\target\site\apidocs\element-list = 1739957169160
+C:\Users\Viktor\.ssh\CMPT276S25_group15\sfusprint\target\site\apidocs\help-doc.html = 1739957169270
+C:\Users\Viktor\.ssh\CMPT276S25_group15\sfusprint\target\site\apidocs\index-all.html = 1739957169264
+C:\Users\Viktor\.ssh\CMPT276S25_group15\sfusprint\target\site\apidocs\index.html = 1739957169236
+C:\Users\Viktor\.ssh\CMPT276S25_group15\sfusprint\target\site\apidocs\member-search-index.js = 1739957169251
+C:\Users\Viktor\.ssh\CMPT276S25_group15\sfusprint\target\site\apidocs\module-search-index.js = 1739957169248
+C:\Users\Viktor\.ssh\CMPT276S25_group15\sfusprint\target\site\apidocs\overview-summary.html = 1739957169268
+C:\Users\Viktor\.ssh\CMPT276S25_group15\sfusprint\target\site\apidocs\overview-tree.html = 1739957169234
+C:\Users\Viktor\.ssh\CMPT276S25_group15\sfusprint\target\site\apidocs\package-search-index.js = 1739957169249
+C:\Users\Viktor\.ssh\CMPT276S25_group15\sfusprint\target\site\apidocs\search.html = 1739957169266
+C:\Users\Viktor\.ssh\CMPT276S25_group15\sfusprint\target\site\apidocs\serialized-form.html = 1739957169188
+C:\Users\Viktor\.ssh\CMPT276S25_group15\sfusprint\target\site\apidocs\tag-search-index.js = 1739957169252
+C:\Users\Viktor\.ssh\CMPT276S25_group15\sfusprint\target\site\apidocs\type-search-index.js = 1739957169250
