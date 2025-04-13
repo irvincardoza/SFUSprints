@@ -12,6 +12,41 @@ SFU Sprints is a tile-based 2D grid game where players navigate the SFU campus m
 <img width="1340" alt="Screenshot 2025-03-17 at 6 39 12 PM" src="https://github.com/user-attachments/assets/cce54648-f834-46d5-b9c9-3d9712c1d973" />
 
 
+## Build Automation
+
+## 🧱 Requirements
+
+- Java 17 or higher
+- Apache Maven 3.6+
+
+---
+
+## 🛠️ Build Instructions
+
+To compile and generate all artifacts:
+
+```bash
+mvn clean package
+```
+
+This produces:
+- `target/sfusprint.jar` — Executable game file
+
+- Packaged JavaDocs
+
+- Full HTML Javadoc site
+
+---
+
+## ▶️ Run the Game
+
+```bash
+java -jar target/sfusprint-1.0-SNAPSHOT.jar
+```
+
+This will launch the game if the manifest is correctly set.
+
+---
 
 
 
@@ -85,12 +120,43 @@ SFU Sprints is a tile-based 2D grid game where players navigate the SFU campus m
 - Ensuring collision and rendering logic synced correctly.
 - Implementing a pause system that halts gameplay threads.
 
-### Testing
-- **Current Status**: Unit testing is in progress, focusing on:
-  - Collision handling.
-  - Scoring system.
-  - Player movement constraints.
-  - Win/Loss condition triggers.
+
+## 🧪 Testing Overview
+
+Comprehensive unit tests were written using **JUnit** to ensure the stability and correctness of all core components in the game.
+
+### ✅ Tested Modules
+
+- **Game Logic**: Win/loss conditions, timer, scoring, and interaction outcomes were validated.
+- **Player Movement**: Directional movement using **WASD/Arrow keys**, wall collisions, puddle effects, and score changes tested.
+- **Enemy AI**: A* pathfinding verified for both Security Guards and Professors with proper heuristic execution and player tracking.
+- **Keyboard Input**: Input handling for movement, pausing (`ESC`), resuming (`P`), and quitting (`Q`) tested under active game states.
+- **Multithreading**: Verified stable execution of game loop, enemy behavior, and UI rendering across multiple threads.
+- **Game Map**: Validated 17x17 grid generation, object placement (coins, puddles, compass), and tile interactions.
+- **UI and Game State Management**: Confirmed correct rendering and switching between `MainPg`, `gameRunning`, and `gamePaused` states.
+
+### ✅ Test Results
+All JUnit tests passed successfully, covering functional behavior, boundary conditions, and game flow interactions.
+
+---
+
+Test files are located in:  
+`src/test/java/com/sfusprint/`  
+Each test targets a corresponding game class to maintain modular and maintainable test coverage.
+
+
+  ## Getting Started
+
+### Prerequisites
+- Java 17 or higher installed
+- A Java IDE (e.g., IntelliJ, Eclipse) or terminal/command line
+
+### Running the Game
+
+#### Using an IDE:
+1. Open the project in your preferred IDE.
+2. Navigate to the `Main.java` file located in the `com.sfusprint` package.
+3. Run `Main.java` — this will launch the game window.
 
 ## Conclusion
 SFU Sprints delivers a complete, playable game with real-time AI, core mechanics, and a dynamic user interface. Ongoing unit tests are being implemented to ensure system reliability and robustness.
