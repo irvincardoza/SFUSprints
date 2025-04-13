@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.sfusprint"},{"l":"com.sfusprint.entity"},{"l":"com.sfusprint.gameobject"}];updateSearchResults();
